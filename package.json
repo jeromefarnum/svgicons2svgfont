@@ -23,15 +23,15 @@
     "cz": "env NODE_ENV=${NODE_ENV:-cli} git cz",
     "lint": "eslint src/*.js bin/*.js tests/*.mocha.js",
     "metapak": "metapak",
-    "mocha": "mocha tests/*.mocha.js --timeout 10000",
+    "mocha": "mocha tests/*.mocha.js",
     "prettier": "prettier --write src/*.js bin/*.js tests/*.mocha.js",
     "preversion": "npm t && npm run lint && npm run metapak -s",
-    "test": "nyc --reporter=lcov mocha tests/*.mocha.js --timeout 10000",
+    "test": "nyc --reporter=lcov mocha tests/*.mocha.js",
     "version": "npm run changelog && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nfroidure/svgicons2svgfont"
+    "url": "git://github.com/ramirezcgn/svgicons2svgfont"
   },
   "keywords": [
     "SVG",
