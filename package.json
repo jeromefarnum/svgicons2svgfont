@@ -1,8 +1,8 @@
 {
-  "name": "svgicons2svgfont",
-  "version": "10.0.5",
-  "description": "Read a set of SVG icons and ouput a SVG font",
-  "homepage": "https://github.com/nfroidure/svgicons2svgfont",
+  "name": "@ramirezcgn/svgicons2svgfont",
+  "version": "10.0.0",
+  "description": "Fork of svgicons2svgfont that support svg strokes.",
+  "homepage": "https://github.com/ramirezcgn/svgicons2svgfont",
   "main": "src/index.js",
   "metapak": {
     "configs": [
@@ -71,7 +71,8 @@
   "author": "Nicolas Froidure",
   "contributors": [
     "Adrian Leonhard <adrianleonhard@gmail.com> (https://github.com/NaridaL)",
-    "Vinicius Teixeira <vinicius0026@gmail.com> (https://github.com/vinicius0026"
+    "Vinicius Teixeira <vinicius0026@gmail.com> (https://github.com/vinicius0026",
+    "Nicolas Ramirez <ramirezcgn@gmail.com> (https://github.com/ramirezcgn"
   ],
   "license": "MIT",
   "bugs": {

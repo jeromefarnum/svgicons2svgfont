@@ -4,20 +4,17 @@
 # be overridden.
 -->
 
-# svgicons2svgfont
+# @ramirezcgn/svgicons2svgfont
 
-> Read a set of SVG icons and ouput a SVG font
+> Fork of [svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont) that support svg strokes.
 
 [![NPM version](https://badge.fury.io/js/svgicons2svgfont.svg)](https://npmjs.org/package/svgicons2svgfont)
-[![Run tests](https://github.com/nfroidure/svgicons2svgfont/actions/workflows/test.yml/badge.svg)](https://github.com/nfroidure/svgicons2svgfont/actions/workflows/test.yml)
-[![Dependency Status](https://david-dm.org/nfroidure/svgicons2svgfont.svg)](https://david-dm.org/nfroidure/svgicons2svgfont)
-[![devDependency Status](https://david-dm.org/nfroidure/svgicons2svgfont/dev-status.svg)](https://david-dm.org/nfroidure/svgicons2svgfont#info=devDependencies)
-[![Coverage Status](https://coveralls.io/repos/nfroidure/svgicons2svgfont/badge.svg?branch=master)](https://coveralls.io/r/nfroidure/svgicons2svgfont?branch=master)
-[![Code Climate](https://codeclimate.com/github/nfroidure/svgicons2svgfont.svg)](https://codeclimate.com/github/nfroidure/svgicons2svgfont)
-[![Dependency Status](https://dependencyci.com/github/nfroidure/svgicons2svgfont/badge)](https://dependencyci.com/github/nfroidure/svgicons2svgfont)
+[![Run tests](https://github.com/ramirezcgn/svgicons2svgfont/actions/workflows/test.yml/badge.svg)](https://github.com/ramirezcgn/svgicons2svgfont/actions/workflows/test.yml)
+[![Coverage Status](https://coveralls.io/repos/ramirezcgn/svgicons2svgfont/badge.svg?branch=master)](https://coveralls.io/r/ramirezcgn/svgicons2svgfont?branch=master)
+[![Code Climate](https://codeclimate.com/github/ramirezcgn/svgicons2svgfont.svg)](https://codeclimate.com/github/ramirezcgn/svgicons2svgfont)
 
-svgicons2svgfont is a simple tool to merge
-multiple icons to an SVG font.
+
+svgicons2svgfont is a simple tool to merge multiple icons to an SVG font.
 
 'rect', 'line', 'circle', 'ellipsis', 'polyline' and 'polygon' shapes will be
 converted to pathes. Multiple pathes will be merged.
