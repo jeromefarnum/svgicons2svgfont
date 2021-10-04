@@ -20,7 +20,7 @@ svgicons2svgfont is a simple tool to merge multiple icons to an SVG font.
 converted to pathes. Multiple pathes will be merged.
 
 Transform attributes support is currenly experimental,
-[report issues if any](https://github.com/nfroidure/svgicons2svgfont/issues/6).
+[report issues if any](https://github.com/ramirezcgn/svgicons2svgfont/issues).
 
 You can test this library with the
 [frontend generator](http://nfroidure.github.io/svgiconfont/).
@@ -270,12 +270,17 @@ You can combine this plugin's CLI interface with
 [ttf2eot](https://www.npmjs.com/package/ttf2eot),
 [ttf2woff](https://www.npmjs.com/package/ttf2woff)
 and [ttf2woff2](https://www.npmjs.com/package/ttf2woff2).
-You can also use [webfonts-generator](https://www.npmjs.com/package/webfonts-generator).
+You can also use [webfonts-generator](https://www.npmjs.com/package/webfonts-generator)
+and [fantasticon](https://github.com/ramirezcgn/fantasticon).
+
+### Webpack plugin
+
+Use [fantasticon-loader](https://github.com/ramirezcgn/fantasticon-loader)
 
 ## Stats
 
-[![NPM](https://nodei.co/npm/@ramirezcgn/svgicons2svgfont.png?downloads=true&stars=true)](https://nodei.co/npm/svgicons2svgfont/)
-[![NPM](https://nodei.co/npm-dl/@ramirezcgn/svgicons2svgfont.png)](https://nodei.co/npm/svgicons2svgfont/)
+[![NPM](https://nodei.co/npm/@ramirezcgn/svgicons2svgfont.png?downloads=true&stars=true)](https://nodei.co/npm/@ramirezcgn/svgicons2svgfont/)
+[![NPM](https://nodei.co/npm-dl/@ramirezcgn/svgicons2svgfont.png)](https://nodei.co/npm/@ramirezcgn/svgicons2svgfont/)
 
 ## Contributing
 
