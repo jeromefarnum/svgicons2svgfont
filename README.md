@@ -28,6 +28,12 @@ You can test this library with the
 You may want to convert fonts to icons, if so use
 [svgfont2svgicons](https://github.com/nfroidure/svgfont2svgicons).
 
+### Install
+
+```bash
+npm install -g @ramirezcgn/svgicons2svgfont
+```
+
 ## Usage
 
 ### In your scripts
