@@ -5,7 +5,7 @@
 [//]: # (be overridden.)
 [//]: # ( )
 # @ramirezcgn/svgicons2svgfont
-> Fork of [svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont) that support svg strokes.
+> Fork of [svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont) that support svg fill rule.
 
 [![NPM version](https://badge.fury.io/js/svgicons2svgfont.svg)](https://npmjs.org/package/@ramirezcgn/svgicons2svgfont)
 [![Run tests](https://github.com/ramirezcgn/svgicons2svgfont/actions/workflows/test.yml/badge.svg)](https://github.com/ramirezcgn/svgicons2svgfont/actions/workflows/test.yml)
