@@ -1,6 +1,6 @@
 {
   "name": "@ramirezcgn/svgicons2svgfont",
-  "version": "12.0.0",
+  "version": "12.0.1",
   "description": "Fork of svgicons2svgfont that support svg strokes.",
   "homepage": "https://github.com/ramirezcgn/svgicons2svgfont",
   "main": "src/index.js",
@@ -56,6 +56,7 @@
     "node": ">=16.15.0"
   },
   "dependencies": {
+    "canvas": "^2.11.2",
     "commander": "^9.4.0",
     "glob": "^7.2.3",
     "paper-jsdom": "^0.12.15",
