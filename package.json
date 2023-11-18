@@ -56,9 +56,8 @@
     "node": ">=16.15.0"
   },
   "dependencies": {
-    "canvas": "^2.11.2",
-    "commander": "^9.4.0",
-    "glob": "^7.2.3",
+    "commander": "^9.3.0",
+    "glob": "^8.0.3",
     "paper-jsdom": "^0.12.15",
     "sax": "^1.2.4",
     "svg-pathdata": "^6.0.3"
