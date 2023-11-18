@@ -1,8 +1,8 @@
 {
-  "name": "@ramirezcgn/svgicons2svgfont",
+  "name": "svgicons2svgfont",
   "version": "12.0.1",
-  "description": "Fork of svgicons2svgfont that support svg strokes.",
-  "homepage": "https://github.com/ramirezcgn/svgicons2svgfont",
+  "description": "Fork of svgicons2svgfont that support svg strokes and fill even-odd rules.",
+  "homepage": "https://github.com/jeromefarnum/svgicons2svgfont",
   "main": "src/index.js",
   "files": [
     "src",
