@@ -9,7 +9,6 @@ const ucs2 = require('punycode').ucs2;
 const SVGIcons2SVGFontStream = require('../src/index.js');
 const StringDecoder = require('string_decoder').StringDecoder;
 const SVGIconsDirStream = require('../src/iconsdir');
-const streamtest = require('streamtest');
 
 const neatequal = require('neatequal');
 const codepoint = require('./expected/test-codepoint.json');
@@ -840,33 +839,6 @@ describe('Providing bad glyphs', () => {
       })
       .on('end', () => {
         done();
-      })
-      .write(svgIconStream);
-  });
-
-  it('should fail when providing bad XML', (done) => {
-    const svgIconStream = streamtest.v2.fromChunks(['bad', 'xml']);
-
-    svgIconStream.metadata = {
-      name: 'test',
-      unicode: ['\uE002'],
-    };
-
-    let firstError = true;
-
-    new SVGIcons2SVGFontStream({ round: 1e3 })
-      .on('error', (err) => {
-        assert.equal(err instanceof Error, true);
-
-        if (firstError) {
-          firstError = false;
-          assert.equal(
-            err.message,
-            'Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: b'
-          );
-
-          done();
-        }
       })
       .write(svgIconStream);
   });

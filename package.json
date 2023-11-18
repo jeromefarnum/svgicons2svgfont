@@ -1,8 +1,8 @@
 {
-  "name": "svgicons2svgfont",
-  "version": "12.0.0",
-  "description": "Read a set of SVG icons and ouput a SVG font",
-  "homepage": "https://github.com/nfroidure/svgicons2svgfont",
+  "name": "@ramirezcgn/svgicons2svgfont",
+  "version": "12.0.1",
+  "description": "Fork of svgicons2svgfont that support svg strokes.",
+  "homepage": "https://github.com/ramirezcgn/svgicons2svgfont",
   "main": "src/index.js",
   "files": [
     "src",
@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nfroidure/svgicons2svgfont"
+    "url": "git://github.com/ramirezcgn/svgicons2svgfont"
   },
   "keywords": [
     "SVG",
@@ -63,18 +63,18 @@
     "svg-pathdata": "^6.0.3"
   },
   "devDependencies": {
-    "commitizen": "^4.2.4",
+    "commitizen": "^4.2.5",
     "conventional-changelog-cli": "^2.2.2",
     "coveralls": "^3.1.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.16.0",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint": "^8.20.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "metapak": "^4.0.4",
-    "metapak-nfroidure": "^12.0.0",
+    "metapak-nfroidure": "^12.1.0",
     "mocha": "^10.0.0",
     "neatequal": "^1.0.0",
     "nyc": "^15.1.0",
-    "prettier": "^2.6.2",
+    "prettier": "^2.7.1",
     "streamtest": "^2.0.0"
   },
   "author": {
@@ -92,6 +92,11 @@
       "name": "Vinicius Teixeira",
       "email": "vinicius0026@gmail.com",
       "url": "https://github.com/vinicius0026"
+    },
+    {
+      "name": "Nicolas Ramirez",
+      "email": "ramirezcgn@gmail.com",
+      "url": "https://github.com/ramirezcgn"
     }
   ],
   "license": "MIT",

@@ -4,11 +4,13 @@
 [//]: # (`content:start/end` flags, your changes would)
 [//]: # (be overridden.)
 [//]: # ( )
-# svgicons2svgfont
-> Read a set of SVG icons and ouput a SVG font
+# @ramirezcgn/svgicons2svgfont
+> Fork of [svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont) that support svg fill rule.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nfroidure/svgicons2svgfont/blob/master/LICENSE)
-[![Coverage Status](https://coveralls.io/repos/github/git://github.com/nfroidure/svgicons2svgfont/badge.svg?branch=master)](https://coveralls.io/github/git://github.com/nfroidure/svgicons2svgfont?branch=master)
+[![NPM version](https://badge.fury.io/js/svgicons2svgfont.svg)](https://npmjs.org/package/@ramirezcgn/svgicons2svgfont)
+[![Run tests](https://github.com/ramirezcgn/svgicons2svgfont/actions/workflows/test.yml/badge.svg)](https://github.com/ramirezcgn/svgicons2svgfont/actions/workflows/test.yml)
+[![Coverage Status](https://coveralls.io/repos/ramirezcgn/svgicons2svgfont/badge.svg?branch=master)](https://coveralls.io/r/ramirezcgn/svgicons2svgfont?branch=master)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ramirezcgn/svgicons2svgfont/blob/master/LICENSE)
 
 
 [//]: # (::contents:start)
@@ -20,13 +22,19 @@ multiple icons to an SVG font.
 converted to pathes. Multiple pathes will be merged.
 
 Transform attributes support is currenly experimental,
-[report issues if any](https://github.com/nfroidure/svgicons2svgfont/issues/6).
+[report issues if any](https://github.com/ramirezcgn/svgicons2svgfont/issues).
 
 You can test this library with the
 [frontend generator](http://nfroidure.github.io/svgiconfont/).
 
 You may want to convert fonts to icons, if so use
 [svgfont2svgicons](https://github.com/nfroidure/svgfont2svgicons).
+
+### Install
+
+```bash
+npm install -g @ramirezcgn/svgicons2svgfont
+```
 
 ## Usage
 
@@ -278,21 +286,21 @@ You can combine this plugin's CLI interface with
 [ttf2eot](https://www.npmjs.com/package/ttf2eot),
 [ttf2woff](https://www.npmjs.com/package/ttf2woff)
 and [ttf2woff2](https://www.npmjs.com/package/ttf2woff2).
-You can also use [webfonts-generator](https://www.npmjs.com/package/webfonts-generator).
+You can also use [webfonts-generator](https://www.npmjs.com/package/webfonts-generator)
+and [fantasticon](https://github.com/ramirezcgn/fantasticon).
+
+### Webpack plugin
+
+Use [fantasticon-loader](https://github.com/ramirezcgn/fantasticon-loader)
 
 ## Stats
 
-[![NPM](https://nodei.co/npm/svgicons2svgfont.png?downloads=true&stars=true)](https://nodei.co/npm/svgicons2svgfont/)
-[![NPM](https://nodei.co/npm-dl/svgicons2svgfont.png)](https://nodei.co/npm/svgicons2svgfont/)
+[![NPM](https://nodei.co/npm/@ramirezcgn/svgicons2svgfont.png?downloads=true&stars=true)](https://nodei.co/npm/@ramirezcgn/svgicons2svgfont/)
+[![NPM](https://nodei.co/npm-dl/@ramirezcgn/svgicons2svgfont.png)](https://nodei.co/npm/@ramirezcgn/svgicons2svgfont/)
 
 ## Contributing
 
 Feel free to push your code if you agree with publishing under the MIT license.
-
-# License
-
-[MIT](https://github.com/nfroidure/svgicons2svgfont/blob/master/LICENSE)
-
 
 [//]: # (::contents:end)
 
@@ -300,6 +308,7 @@ Feel free to push your code if you agree with publishing under the MIT license.
 - [Nicolas Froidure](http://insertafter.com/en/index.html)
 - [Adrian Leonhard](https://github.com/NaridaL)
 - [Vinicius Teixeira](https://github.com/vinicius0026)
+- [Nicolas Ramirez](https://github.com/ramirezcgn)
 
 # License
-[MIT](https://github.com/nfroidure/svgicons2svgfont/blob/master/LICENSE)
+[MIT](https://github.com/ramirezcgn/svgicons2svgfont/blob/master/LICENSE)
